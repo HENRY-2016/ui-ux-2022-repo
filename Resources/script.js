@@ -218,18 +218,6 @@ window.onload = boot;
 
 
 
-// disabling key board keys .........................
-// To disable right click
-window.oncontextmenu = function () {return false;}
-
-$(document).keydown(function (event) 
-{
-    if (event.keyCode == 83) {return false;} // s
-    else if (event.keyCode == 85) {return false;} // u
-    else if (event.keyCode == 162) {return false;} // left Ctrl
-    else if (event.keyCode == 163) {return false;} // right Ctrl
-});
-
 
 
 
